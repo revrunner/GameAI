@@ -7,9 +7,10 @@ import tkinter
 import p3_pathfinder
 
 sys.argv.append("homer.gif")
-sys.argv.append("homer.gif.mesh.pickle")
+sys.argv.append("homer.png.mesh.pickle")
 sys.argv.append(1)
 
+print("%s" % sys.argv)
 if len(sys.argv) != 4:
     print("usage: %s map.gif map.mesh.pickle subsample_factor" % sys.argv[0])
     sys.exit(-1)
